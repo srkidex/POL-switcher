@@ -1,0 +1,19 @@
+.lang-item .lang-name {
+    display: none !important;
+}
+
+/* Optional: Ensure the list items display inline (horizontally) */
+.lang-item {
+    display: inline;
+    list-style: none; /* Removes any bullets if it's in a list */
+}
+
+.lang-item a img{
+	width: 32px !important;
+	height: auto !important;
+}
+
+.langSW{
+	width: 32px !important;
+	height: auto !important;
+}
