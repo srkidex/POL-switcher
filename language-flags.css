@@ -4,6 +4,7 @@
 
 /* Optional: Ensure the list items display inline (horizontally) */
 .lang-item {
+	width:36px !important;
     display: inline;
     list-style: none; /* Removes any bullets if it's in a list */
 }
@@ -14,6 +15,10 @@
 }
 
 .langSW{
+    float: right;
+}
+
+.langSW img{
 	width: 32px !important;
 	height: auto !important;
 }

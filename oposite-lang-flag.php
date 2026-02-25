@@ -35,8 +35,8 @@ function get_opposite_language_info() {
 $opposite_lang_info = get_opposite_language_info();
 
 if ($opposite_lang_info) {
-    echo '<a href="' . esc_url($opposite_lang_info['url']) . '" title="Switch to ' . esc_attr($opposite_lang_info['name']) . '">';
-    echo '<img class="langSW" src="' . $opposite_lang_info['flag'] . '" alt="language">';// Or use the slug/flag
+    echo '<a class="langSW" href="' . esc_url($opposite_lang_info['url']) . '" title="Switch to ' . esc_attr($opposite_lang_info['name']) . '">';
+    echo '<img src="' . $opposite_lang_info['flag'] . '" alt="language">';// Or use the slug/flag
     echo '</a>';
 }
 ?>
