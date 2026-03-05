@@ -1,4 +1,4 @@
-# Polylang Opposite Lang Switcher
+# Polylang Opposite Language Switcher
 
 **(You need to know: Cut / Move and Copy / Pate Operations)**
 
